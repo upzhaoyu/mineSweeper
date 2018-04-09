@@ -1,0 +1,49 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+html body {
+  width: 100%;
+  height: 100%;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+#app div {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: red;
+  background: transparent;
+  border-right: 1px solid red;
+  border-top: 1px solid red;
+}
+
+#app div dl {
+  overflow: hidden;
+  border-bottom: 1px solid red;
+}
+
+#app div dl dd {
+  border-left: 1px solid red;
+  float: left;
+}
+
+#app div dl dd P {
+  font-size: 24px;
+  color: black;
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
